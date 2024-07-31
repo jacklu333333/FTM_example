@@ -1,5 +1,5 @@
 # FTM Example
-> This is the repo for the FTM client and station for the module of TTGO T-display S2. The client will automatically search the station prefix and tried to initiate the FTM protocol. 
+> This is the repo for the FTM client and station for the module of TTGO T-display S2. The client will automatically search the station prefix and tried to initiate the FTM protocol. The client will return the result via serial port communication specify the distance and SSID with time. The time sync for NTP is not implement, should be implement via init of serial port, and get the global time from the master processor.
 
 ### spec
 1. Framework: Arduino
