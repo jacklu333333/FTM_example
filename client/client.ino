@@ -32,7 +32,6 @@ int AP_COUNT = 0;
 const uint8_t FTM_FRAME_COUNT = 8;
 // Requested time period between consecutive FTM bursts in 100’s of milliseconds (allowed values - 0 (No pref) or 2-255)
 const uint16_t FTM_BURST_PERIOD = 2;
-
 // Semaphore to signal when FTM Report has been received
 SemaphoreHandle_t ftmSemaphore;
 // Status of the received FTM Report
